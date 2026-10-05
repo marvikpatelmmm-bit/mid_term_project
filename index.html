@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DESKOS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- DESKTOP ICONS -->
+<div class="desktop">
+  <a href="#about" class="icon">
+    <div class="icon-img">🖥️</div>
+    <span>My Computer</span>
+  </a>
+  <a href="#academics" class="icon">
+    <div class="icon-img">📁</div>
+    <span>My Documents</span>
+  </a>
+  <a href="#skills" class="icon">
+    <div class="icon-img">🎛️</div>
+    <span>Control Panel</span>
+  </a>
+  <a href="#paint" class="icon">
+    <div class="icon-img">🎨</div>
+    <span>Paint.exe</span>
+  </a>
+  <a href="#prof" class="icon">
+    <div class="icon-img">📱</div>
+    <span>PROF_DETECTOR</span>
+  </a>
+  <a href="#sleep" class="icon">
+    <div class="icon-img">💤</div>    
+    <span>SLEEP.py</span>
+  </a>
+  <a href="#recycle" class="icon">
+    <div class="icon-img">🗑️</div>
+    <span>Recycle Bin</span>
+  </a>
+</div>
+
+<!-- WELCOME WINDOW -->
+<div id="welcome" class="window show">
+  <div class="A">
+    <div class="title-bar-text">👋 Welcome to DESKOS v1.0</div>
+    <div class="title-bar-controls">
+      <a href="#" id="closeWelcome">X</a>
+    </div>
+  </div>
+  <div class="window-body">
+    <div style="display:flex; align-items:flex-start;">
+      <div style="font-size:42px;">💾</div>
+      <div>
+        <h3 style="margin:0 0 6px 0;">DESKOS v1.0 - Marvik Patel Edition</h3>
+        <p><b>SYSTEM BOOT SUCCESSFUL</b></p>
+        <p>User: <b>Marvik Patel</b> [CS & AI - Sem 1]</p>
+        <p>Status: <span style="background:yellow; padding:2px;">First Term Project - 30/30 Loading...</span></p>
+        <p>You can click any icon. don't click recycle bin untill you heat maths like me</p>
+        <div style="display:flex; gap:6px;">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--My Computer -->
+<div id="about" class="window" style="left: 180px; top: 100px; width: 460px;">
+  <div class="A">
+    <div class="title-bar-text">🖥️ My Computer</div>
+    <div class="title-bar-controls"><a href="#">X</a></div>
+  </div>
+  <div class="window-body">
+    <div class="data" style="margin-bottom:10px;">
+      <div style="display:flex; gap:12px;">
+        <div style="font-size:48px; background:rgb(224, 219, 219); border:2px outset white;">🧑‍💻</div>
+        <div>
+          <h2 style=" font-size:18px;">Marvik Patel</h2>
+          <p><b>Branch:</b> CS & AI - 1st Year</p>
+          <p><b>Location:</b> Bengaluru</p>
+          <p><b>Motto:</b> "Code. Sing. Sleep. Repeat."</p>
+        </div>
+      </div>
+    </div>
+
+    <fieldset>
+      <legend>System Specs</legend>
+      <div class="spec-grid">
+        <div class="spec-key">Processor:</div><p>Intel i7 + Overthinking 4.8GHz</p>
+        <div class="spec-key">RAM:</div><p>16GB + 3 cups of coffee</p>
+        <div class="spec-key">GPU:</div><p>RTX 5090(i wish pese kam hai :sob:)</p>
+        <div class="spec-key">OS:</div><p>DESKOS v1.0 Beta - First Sem</p>
+        <div class="spec-key">Storage:</div><p>512GB SSD - 400GB is games & music</p>
+        <div class="spec-key">Battery:</div><p>1% - always about to die</p>
+        <div class="spec-key">Maths Module:</div><div><p style="color:red;"><b>ERROR - not found, i just heat maths</b></p></div>
+      </div>
+    </fieldset>
+  </div>
+</div>
+
+<!--My Documents -->
+<div id="academics" class="window" style="left: 180px; top: 100px; width: 460px;">
+  <div class="A">
+    <div class="title-bar-text">📁 My Documents</div>
+    <div class="title-bar-controls"><a href="#">X</a></div>
+  </div>
+  <div class="window-body">
+    <div class="data">
+      <p><b>📚 Current Semester - CS & AI - 1st Year</b></p>
+      <ul style="margin:6px 0; padding-left:18px;">
+        <li>Java - Basics done, OOPs started - public static void main confusion is real</li>
+        <li>HTML & CSS - Now you see this project [30/30 loading]</li>
+        <li>JavaScript - Just started - console.log("hello world") phase</li>
+        <li>Maths - <i>We don't talk about Maths. Maths is Voldemort.</i></li>
+      </ul>
+      <p><b>🧠 Self Learned:</b></p>
+      <ul>
+        <li>Python - My comfort language</li>
+        <li>C++ - For DSA flex</li>
+        <li>Gaming Logic - 1000+ hours practical</li>
+      </ul>
+      <p><b>🏫 Class Rule I Love:</b> If you sleep, you get a dare. Hence I made SLEEP.exe. Prof is chill but savage.</p>
+    </div>
+  </div>
+</div>
+
+<!-- SKILLS - Control Panel -->
+<div id="skills" class="window" style="left: 200px; top: 80px; width: 440px;">
+  <div class="A">
+    <div class="title-bar-text">🎛️ Control Panel</div>
+    <div class="title-bar-controls"><a href="#">X</a></div>
+  </div>
+  <div class="window-body">
+    <p>Skill levels are not fake LinkedIn endorsements. Real stats.</p>
+    
+    <div       >
+      <div style="display:flex; justify-content:space-between;"><span>HTML</span><span>80%</span></div>
+      <div class="progress-outer"><div class="progress-inner" style="width:80%"></div></div>
+    </div>
+    <div       >
+      <div style="display:flex; justify-content:space-between;"><span>CSS [can center div now]</span><span>70%</span></div>
+      <div class="progress-outer"><div class="progress-inner" style="width:70%"></div></div>
+    </div>
+    <div       >
+      <div style="display:flex; justify-content:space-between;"><span>Java</span><span>55%</span></div>
+      <div class="progress-outer"><div class="progress-inner" style="width:55%"></div></div>
+    </div>
+    <div       >
+      <div style="display:flex; justify-content:space-between;"><span>Python</span><span>75%</span></div>
+      <div class="progress-outer"><div class="progress-inner" style="width:75%"></div></div>
+    </div>
+    <div       >
+      <div style="display:flex; justify-content:space-between;"><span>C++</span><span>65%</span></div>
+      <div class="progress-outer"><div class="progress-inner" style="width:65%"></div></div>
+    </div>
+    <div  >
+      <div style="display:flex; justify-content:space-between;"><span>JavaScript [just started]</span><span>25%</span></div>
+      <div class="progress-outer"><div class="progress-inner" style="width:25%; background: orange;"></div></div>
+    </div>
+    <div>
+      <div style="display:flex; justify-content:space-between;"><span>Maths</span><span>5% - ERROR</span></div>
+      <div class="progress-outer"><div class="progress-inner" style="width:5%; background: red;"></div></div>
+    </div>
+    <div  >
+      <div style="display:flex; justify-content:space-between;"><span>Bathroom Singing</span><span>100% - Pro Max</span></div>
+      <div class="progress-outer"><div class="progress-inner" style="width:100%; background: linear-gradient(90deg, #ff00ff, #00ffff);"></div></div>
+    </div>
+    <div       >
+      <div style="display:flex; justify-content:space-between;"><span>Gaming</span><span>95%</span></div>
+      <div class="progress-outer"><div class="progress-inner" style="width:95%"></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECTS -->
+<div id="projects" class="window" style="left: 250px; top: 120px; width: 500px;">
+  <div class="A">
+    <div class="title-bar-text">📂 C:\Marvik\Projects\ - Lab Experiments</div>
+    <div class="title-bar-controls"><a href="#">X</a></div>
+  </div>
+  <div class="window-body">
+    <div style="display:flex; gap:10px; flex-wrap:wrap;">
+      <div class="data" style="width:140px;">
+        <div style="font-size:24px; text-align:center;">💻</div>
+        <p style="font-weight:bold; text-align:center;">DESKOS v1.0</p>
+        <p style="font-size:10px;">This website. HTML+CSS only. Mid-term project. 30/30 expected.</p>
+        <button class="win98" style="width:100%;">Open</button>
+      </div>
+      <div class="data" style="width:140px;">
+        <div style="font-size:24px; text-align:center;">🐍</div>
+        <p style="font-weight:bold; text-align:center;">Py-Tools</p>
+        <p style="font-size:10px;">Small Python0 scripts - file organizer, meme downloader, etc.</p>
+        <button class="win98" style="width:100%;">View Code</button>
+      </div>
+      <div class="data" style="width:140px;">
+        <div style="font-size:24px; text-align:center;">☕</div>
+        <p style="font-weight:bold; text-align:center;">Java Basics</p>
+        <p style="font-size:10px;">College labs - loops, classes, inheritance. Still figuring out.</p>
+        <button class="win98" style="width:100%;">.java</button>
+      </div>
+      <div class="data" style="width:140px;">
+        <div style="font-size:24px; text-align:center;">🎮</div>
+        <p style="font-weight:bold; text-align:center;">Game Stats Tracker</p>
+        <p style="font-size:10px;">[Idea] Track gaming hours - made in C++ concept.</p>
+        <button class="win98" style="width:100%;">Concept</button>
+      </div>
+      <div class="data" style="width:140px;">
+        <div style="font-size:24px; text-align:center;">🎤</div>
+        <p style="font-weight:bold; text-align:center;">Bathroom Acoustics</p>
+        <p style="font-size:10px;">Research: Why bathroom singing sounds better. Conclusion: Tiles.</p>
+        <button class="win98" style="width:100%;">LOL</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PAINT - Hobbies -->
+<div id="paint" class="window" style="left: 300px; top: 60px; width: 480px;">
+  <div class="A">
+    <div class="title-bar-text">🎨 Paint.exe - Marvik's Hobbies</div>
+    <div class="title-bar-controls"><a href="#">X</a></div>
+  </div>
+  <div class="window-body">
+    <div style="display:flex; gap:4px; margin-bottom:8px;">
+      <button class="win98">🎤</button><button class="win98">🎮</button><button class="win98">🎧</button><button class="win98">🎨</button>
+    </div>
+    <div class="paint-canvas">
+      🎤 Bathroom Singer<br>🎮 Gamer<br>🎧 Music Listener<br><span style="font-size:12px;">(Live concert daily at 7 AM - Hostel bathroom)</span>
+    </div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
+      <div class="data">
+        <b>🎤 Bathroom Singer.exe</b>
+        <p style="font-size:11px;">Genre: Everything but good. Arijit to Eminem. Echo = auto-tune. Neighbors are fans [forced].</p>
+        <p style="font-size:10px; background:yellow; padding:2px;">Now Playing: "Perfect - but in shower reverb"</p>
+      </div>
+      <div class="data">
+        <b>🎮 Gaming.exe</b>
+        <p style="font-size:11px;">Valorant / BGMI / Whatever runs. Rank: Pro in my mind. Hours: Don't ask parents.</p>
+        <p style="font-size:10px;">Status: <span style="color:green;">Online - Do not disturb - Exam tomorrow still gaming</span></p>
+      </div>
+    </div>
+    <div class="data" style="margin-top:8px;">
+      <b>🎧 Winamp - Marvik's Playlist</b>
+      <div style="font-family:monospace; font-size:11px; margin-top:4px; background:black; color:#00ff00; padding:6px;">
+        > 01. Arijit Singh - Bathroom Version.mp3<br>
+        > 02. Lo-fi beats to hate maths to.mp3<br>
+        > 03. Gaming montage music.mp3<br>
+        > 04. Prof's "phone rakh do" remix.mp3 [unreleased]
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROF DETECTOR - Meme Window -->
+<div id="prof" class="window" style="left: 160px; top: 40px; width: 520px;">
+  <div class="A" style="background: red;">
+    <div class="title-bar-text">⚠️ PROF_DETECTOR.exe - Phone Usage Detected!</div>
+    <div class="title-bar-controls"><a href="#">X</a></div>
+  </div>
+  <div class="window-body">
+    <div style="background:black; color:lime; font-family:monospace; padding:8px; margin-bottom:8px; border:2px data white;">
+      > Scanning classroom...<br>
+      > [ALERT] Student looking at phone during lecture detected<br>
+      > [ACTION] Playing prof's favorite meme...<br>
+      > [STATUS] Aura farming initiated...
+    </div>
+    <p><b>This is THAT meme prof always shows when someone checks phone in lec:</b></p>
+    <div class="video-wrap">
+      <iframe src="https://www.youtube.com/embed/h9VZjrCcejg" title="Prof meme" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p style="font-size:11px; margin-top:6px;">If video doesn't load, open: <a href="https://youtube.com/shorts/h9VZjrCcejg" target="_blank">youtube.com/shorts/h9VZjrCcejg</a> - The aura farming meme. Prof's official phone-check punishment.</p>
+    <div class="data" style="margin-top:8px; background:#ffffcc;">
+      <b>💡 Prof Logic:</b> "Phone dekhna hai toh yeh dekho" *plays this* - Instant 100% attention back.
+    </div>
+  </div>
+</div>
+
+<!-- SLEEP.EXE - DARE WHEEL -->
+<div id="sleep" class="window" style="left: 350px; top: 20px; width: 420px;">
+  <div class="A" style="background: linear-gradient(90deg, #8B0000, red);">
+    <div class="title-bar-text">💤 SLEEP.exe - Anti-Sleep Dare Punisher v2.0</div>
+    <div class="title-bar-controls"><a href="#">X</a></div>
+  </div>
+  <div class="window-body">
+    <div style="background:black; color:red; font-family:monospace; padding:6px; font-size:11px; margin-bottom:8px; text-align:center;">
+      ⚠️ CLASS RULE: If caught sleeping, you MUST spin the wheel. No excuses. Non-NSFW. Pure funny torture.
+    </div>
+    
+    <div class="dare-container">
+      <div class="wheel-wrapper">
+        <div class="wheel-pointer"></div>
+        <div id="wheel" class="wheel">
+          <div class="wheel-center">SPIN<br>ME</div>
+        </div>
+      </div>
+      
+      <div id="dareResult" class="dare-result">
+        Click SPIN to get your punishment. Prof is watching... 👀<br><small>70 dares loaded. No repeats... maybe.</small>
+      </div>
+      
+      <button id="spinBtn" class="win98 spin-btn">🎡 SPIN THE DARE WHEEL!</button>
+      
+      <p style="font-size:10px; text-align:center;">Made for prof's dare rule. All dares are class-friendly, funny, and will make everyone laugh including prof. No cringe, only fun.</p>
+    </div>
+  </div>
+</div>
+
+<!-- RECYCLE BIN -->
+<div id="recycle" class="window" style="left: 100px; top: 150px; width: 460px;">
+  <div class="A">
+    <div class="title-bar-text">🗑️ Recycle Bin - Trash Thoughts & Error Logs</div>
+    <div class="title-bar-controls"><a href="#">X</a></div>
+  </div>
+  <div class="window-body">
+    <h3 style="margin-top:0;">An error has occurred. To continue:</h3>
+    <p>Press Enter to return to Windows, or</p>
+    <p>Press CTRL+ALT+DEL to restart your brain. You will lose any unsaved information in all applications.</p>
+    <p>Error: 0E : 016F : BFF9B3D4</p>
+    <p>Press any key to continue <span style="animation: blink 1s infinite;">_</span></p>
+    <div style="border:1px solid white; padding:8px; margin-top:12px; font-size:11px;">
+      <p><b>ERROR LOG - Marvik's Brain Dump:</b></p>
+      <p>> Maths.dll not found - Skipping module</p>
+      <p>> Sleep.exe has stopped respondin`g - Too many dares</p>
+      <p>> Bathroom_Singer.mp3 is using 99% CPU</p>
+      <p>> Java: NullPointerException at line "my life"</p>
+      <p>> C++: Segmentation fault (core dumped) - tried to understand pointers at 3AM</p>
+      <p>> Python: IndentationError - Life not properly indented</p>
+      <p>> 8 AM lecture - Connection timed out</p>
+      <p style="margin-top:10px;"><b>Trash Items:</b> Old maths notes [permanently deleted], 3AM motivation, "I will study from tomorrow" promises</p>
+    </div>
+  </div>
+</div>
+
+<!-- TASKBAR -->
+<div class="taskbar">
+  <div style="display:flex; align-items:center;">
+    <div id="startBtn" class="start-btn">🪟 Start</div>
+    <div class="running-apps">
+    </div>
+  </div>
+  <div class="taskbar-right">
+    <div style="font-size:11px; opacity:0.7;">Marvik Patel - CS & AI</div>
+    <div id="clock" class="clock">12:30 PM</div>
+  </div>
+</div>
+
+<div id="startMenu" class="start-menu">
+  <div style="background:navy; color:white; padding:6px; font-weight:bold; writing-mode: vertical-lr; position:absolute; left:0; top:0; bottom:0; width:22px; display:flex; align-items:center; justify-content:center;">DESKOS</div>
+  <div style="margin-left:22px;">
+    <a href="#about" class="start-menu-item">🖥️ My Computer</a>
+    <a href="#academics" class="start-menu-item">📁 My Documents</a>
+    <a href="#skills" class="start-menu-item">🎛️ Control Panel</a>
+    <a href="#prof" class="start-menu-item">📱 PROF_DETECTOR.exe</a>
+    <a href="#sleep" class="start-menu-item">💤 SLEEP.exe</a>
+    <a href="#paint" class="start-menu-item">🎨 Paint - Hobbies</a>
+    <a href="#recycle" class="start-menu-item">🗑️ Recycle Bin</a>
+    <hr style="margin:4px 0;">
+    <div class="start-menu-item">🔴 Shut Down... [Don't - Exam tomorrow]</div>
+  </div>
+</div>
+
+<script>
+  let highestZ = 100;
+
+function openWindow(id) {
+  const win = document.getElementById(id);
+  if (win) {
+    win.classList.add('show');
+    win.style.zIndex = ++highestZ;
+  }
+}
+
+function closeWindow(win) {
+  if (win) {
+    win.classList.remove('show');
+  }
+}
+
+// Bring clicked window to focus
+document.querySelectorAll('.window').forEach(win => {
+  win.addEventListener('mousedown', () => {
+    win.style.zIndex = ++highestZ;
+  });
+});
+
+// Open windows on clicking desktop icons or start menu links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', (e) => {
+    const targetId = anchor.getAttribute('href').substring(1);
+    
+    // If it's a close button (href="#" or href="")
+    if (!targetId) {
+      e.preventDefault();
+      const parentWindow = anchor.closest('.window');
+      closeWindow(parentWindow);
+      return;
+    }
+
+    const targetWin = document.getElementById(targetId);
+    if (targetWin) {
+      e.preventDefault();
+      openWindow(targetId);
+      // Close start menu after clicking an item
+      document.getElementById('startMenu')?.classList.remove('show');
+    }
+  });
+});
+
+// Explicit close button handlers (like #closeWelcome)
+document.querySelectorAll('.title-bar-controls a, #closeWelcome').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    closeWindow(btn.closest('.window'));
+  });
+});
+
+// Start button toggle
+const startBtn = document.getElementById('startBtn');
+const startMenu = document.getElementById('startMenu');
+
+if (startBtn && startMenu) {
+  startBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    startMenu.classList.toggle('show');
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!startMenu.contains(e.target) && e.target !== startBtn) {
+      startMenu.classList.remove('show');
+    }
+  });
+}
+</script>
+</body>
+</html>
